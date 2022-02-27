@@ -1,0 +1,46 @@
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	border: solid #bbbbbb 2px;
+}
+.header {
+	background-color:  #bbbbbb;
+}
+
+.content {
+	padding: 20px;
+	min-height: 450px;
+}
+
+.footer {
+
+	background-color:  #bbbbbb;
+}
+.otsikko {
+	text-align: center;
+	padding:30px;
+	font-size: 2em;
+	color: #000000;
+}
+
+.taulukko {
+	border-collapse: collapse;
+	border: 1px solid #ddd;
+}
+.taulukko th {
+	background-color: #92a8d1;
+	text-align: center;
+	padding: 8px;
+}
+
+.taulukko td {
+	text-align: center;
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+.taulukko tr:nth-child(even){background-color: #f2f2f2;}
+
+input {
+	display: block;
+}
